@@ -1,6 +1,8 @@
 import os
 import asyncio
+
 from dotenv import load_dotenv
+
 from core import UserProfileFetcher
 
 # Загружаем конфигурацию из .env файла
