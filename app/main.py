@@ -50,7 +50,7 @@ async def fetch_and_write_data():
     result_list = []
 
     # Запрашиваем данные для пользователей с ID от 0 до 12000
-    for user_id in range(0, 4368):
+    for user_id in range(0, 12000):
         await fetch_user_data(user_id, result_list)
 
 
